@@ -3,14 +3,15 @@ import re
 
 from regex import my_regex
 
-FINDALL_STRING = """
-    It's such a lovely day today.
-    Where'd all the time go?
-    Some weather we're having today, huh?
-    Tomorrow never knows!
-    Maybe today's just not my day.
-    It's clobbering time!
-"""
+# FINDALL_STRING = """
+#     It's such a lovely day today.
+#     Where'd all the time go?
+#     Some weather we're having today, huh?
+#     Tomorrow never knows!
+#     Maybe today's just not my day.
+#     It's clobbering time!
+# """
+FINDALL_STRING = """It's such a lovely day today.Where'd all the time go?Some weather we're having today, huh?Tomorrow never knows!Maybe today's just not my day.It's clobbering time!"""
 
 class TestRegEx:
     '''my_regex in regex.py'''
